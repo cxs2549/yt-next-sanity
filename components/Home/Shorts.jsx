@@ -29,7 +29,7 @@ const Short = () => (
 const Shorts = () => {
   return (
     <div className="pb-8">
-      <div className="h-16 max-w-[320px] mx-auto flex items-center justify-between">
+      <div className="pb-4 max-w-[320px] mx-auto flex items-center justify-between">
         <div className="flex">
           <Image src="/shorts.png" width={28} height={38} alt="shorts" />
           <h2 className="text-xl font-medium ml-2">Shorts</h2>

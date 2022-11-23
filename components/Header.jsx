@@ -10,12 +10,12 @@ import { MdHomeFilled, MdOutlineVideoLibrary, MdHistory } from "react-icons/md"
 import { BsCollectionPlay, BsChevronDown } from "react-icons/bs"
 
 const Container = ({ children }) => (
-  <div className="mx-auto max-w-[1400px] px-4 flex items-center justify-between h-16 relative">
+  <div className="mx-auto max-w-[1500px] px-4 flex items-center justify-between h-16 relative">
     {children}
   </div>
 )
 const Container2 = ({ children }) => (
-  <div className="mx-auto max-w-[1400px] px-4 flex items-center h-16 relative">
+  <div className="mx-auto max-w-[1500px] px-4 flex items-center h-16 relative">
     {children}
   </div>
 )
@@ -105,7 +105,7 @@ const Menu = () => {
   )
 }
 const Sidebar = () => (
-  <div className="fixed p-1  left-0 top-16 hidden sm:flex w-[88px] h-screen flex-col gap-1 items-center">
+  <div className="fixed p-1  left-0 top-16 hidden md:flex w-[88px] h-screen flex-col gap-1 items-center">
     <div className="flex flex-col items-center justify-center py-4 w-full gap-1 rounded-md hover:bg-neutral-100">
       <MdHomeFilled size={24} />
       <p className="text-[11px]">Home</p>
@@ -258,7 +258,7 @@ const Header = () => {
         <Profile />
       </Container>
       <Container2>
-        <ul className="flex overflow-x-scroll no-scrollbar gap-4 sm:ml-20">
+        <ul className="flex overflow-x-scroll no-scrollbar gap-4 md:ml-20">
           <li
             className={`whitespace-nowrap capitalize px-4 py-2 bg-black text-white rounded-lg text-[14px] font-medium`}
           >
